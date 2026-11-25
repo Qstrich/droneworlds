@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Secrets and local config
+.env
+.env.*
+*.pem
+*.key
+
+# Logs, editor
+*.log
+.vscode/
+.idea/
+.DS_Store
+
+# Data, checkpoints, outputs
+/data/
+/runs/
+/checkpoints/
+/wandb/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npy
+*.npz
+*.mp4
+*.gif
